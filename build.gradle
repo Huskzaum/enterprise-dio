@@ -32,8 +32,6 @@ dependencies {
 
     implementation 'org.hibernate:hibernate-core:5.2.2.Final'
     implementation 'org.hibernate:hibernate-entitymanager:5.2.2.Final'
-    implementation group: 'org.hibernate', name: 'hibernate-validator', version: '6.1.5.Final'
-    implementation 'org.hibernate:hibernate-envers'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
